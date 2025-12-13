@@ -1,0 +1,114 @@
+
+<bxf xsi:schemaLocation="http://www.blum.com/BXF2 http://www.blum.com/BXF2/bxf2.xsd" xmlns="http://www.blum.com/bxf2" xmlns:ns2="http://www.blum.com/bxf2/bxf2snp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <version></version>
+        <date></date>
+        <author></author>
+        <copyright></copyright>
+        <unit meter="0.001" name="mm"/>
+        <angularUnit>degree</angularUnit>
+        <country></country>
+        <language></language>
+        <parameters>
+            <parameter name="testmode">
+            </parameter>
+            <parameter name="converterVersion">
+            </parameter>
+        </parameters>
+    </head>
+    <scene>
+        <nodes>
+            <node>
+                <description></description>
+                <cabinetLinks>
+                    <cabinetLink referenceId="ID00001">
+                    </cabinetLink>
+                </cabinetLinks>
+            </node>
+        </nodes>
+    </scene>
+    <library>
+        <components/>
+        <machiningGroups/>
+        <machinings/>
+        <cabinetGroups/>
+        <cabinets>
+            <cabinet id="ID00001">
+                <description></description>
+                <partLinks>
+                    <partLink referenceId="ID00002">
+                        <description>Крышка корпуса</description>
+                        <transformations>
+                            <transformation rotation="1 0 0 -90"/>
+                            <transformation rotation="0 0 1 180"/>
+                            <transformation translation="0 720 310"/>
+                        </transformations>
+                    </partLink>
+                    <partLink referenceId="ID00004">
+                        <description>Дно корпуса</description>
+                        <transformations>
+                            <transformation rotation="1 0 0 -90"/>
+                            <transformation translation="16 0 310"/>
+                        </transformations>
+                    </partLink>
+                    <partLink referenceId="ID00006">
+                        <description>Боковина, левая</description>
+                        <transformations>
+                            <transformation rotation="1 0 0 -90"/>
+                            <transformation rotation="0 0 1 -90"/>
+                            <transformation translation="0 0 310"/>
+                        </transformations>
+                    </partLink>
+                    <partLink referenceId="ID00008">
+                        <description>Боковина, правая</description>
+                        <transformations>
+                            <transformation rotation="1 0 0 -90"/>
+                            <transformation rotation="0 0 1 90"/>
+                            <transformation translation="600 0 310"/>
+                        </transformations>
+                    </partLink>
+                    <partLink referenceId="ID00010">
+                        <transformations>
+                            <transformation rotation="0 1 0 180"/>
+                            <transformation translation="598.5 1.5 328"/>
+                        </transformations>
+                    </partLink>
+                </partLinks>
+            </cabinet>
+        </cabinets>
+        <parts>
+            <part id="ID00002">
+                <description>Крышка корпуса</description>
+                <geometry xsi:type="Box">
+                    <extent>-600 310 25</extent>
+                </geometry>
+            </part>
+            <part id="ID00004">
+                <description>Дно корпуса</description>
+                <geometry xsi:type="Box">
+                    <extent>568 310 16</extent>
+                </geometry>
+            </part>
+            <part id="ID00006">
+                <description>Боковина, левая</description>
+                <geometry xsi:type="Box">
+                    <extent>-695 310 16</extent>
+                </geometry>
+            </part>
+            <part id="ID00008">
+                <description>Боковина, правая</description>
+                <geometry xsi:type="Box">
+                    <extent>695 310 16</extent>
+                </geometry>
+            </part>
+            <part id="ID00010">
+                <description>Фасад</description>
+                <geometry xsi:type="Box">
+                    <extent>597 717 18</extent>
+                </geometry>
+            </part>
+        </parts>
+        <functionUnits/>
+        <articles/>
+    </library>
+</bxf>
