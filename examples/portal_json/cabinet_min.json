@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "schema": 1,
+    "unit": "mm"
+  },
+  "assembly": {
+    "name": "Cabinet_Min"
+  },
+  "parts": [
+    {
+      "id": "VL",
+      "name": "Left",
+      "w": 560,
+      "h": 720,
+      "t": 16,
+      "orientation": "vertical",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "VR",
+      "name": "Right",
+      "w": 560,
+      "h": 720,
+      "t": 16,
+      "orientation": "vertical",
+      "pos": [
+        584,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "HB",
+      "name": "Bottom",
+      "w": 600,
+      "h": 560,
+      "t": 16,
+      "orientation": "horizont",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "HT",
+      "name": "Top",
+      "w": 600,
+      "h": 560,
+      "t": 16,
+      "orientation": "horizont",
+      "pos": [
+        0,
+        704,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "FR",
+      "name": "Back",
+      "w": 600,
+      "h": 720,
+      "t": 4,
+      "orientation": "front",
+      "pos": [
+        0,
+        0,
+        556
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "holes": [
+    {
+      "partId": "VL",
+      "x": 37,
+      "y": 100,
+      "dia": 5,
+      "depth": 12,
+      "face": "inner",
+      "dir": "-Z",
+      "note": "shelf pin sample"
+    },
+    {
+      "partId": "VL",
+      "x": 37,
+      "y": 200,
+      "dia": 5,
+      "depth": 12,
+      "face": "inner",
+      "dir": "-Z",
+      "note": "shelf pin sample"
+    }
+  ]
+}
